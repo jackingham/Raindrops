@@ -1,6 +1,6 @@
 package com.sparta.jack;
 
-public class Raindrops {
+public class RaindropsClass {
 
     public String raindrops(int n){
         StringBuilder builder = new StringBuilder();
