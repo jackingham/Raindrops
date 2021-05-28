@@ -20,7 +20,7 @@ JUnit 5.7
 Cucumber 6.4
 
 
-##Approach
+## Approach
 I programmed this function inside it's own Java class. As it is a function as I am assuming that only ints are passed in validly. I wrote a null test but the tests will not compile as it could be null. The program cannot be run itself as it is just a method. It is called from within the JUnit test bed to test the functionality. I also added a BDD layer using Cucumber to test using gherkin syntax, which allowed me to reuse parameterised statements to aid testing.
 
 ## Test case table  
