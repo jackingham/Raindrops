@@ -79,7 +79,8 @@ public class RaindropsTests {
 //    @Test
 //    @DisplayName("Test passing in null")
 //    void testPassingInNull() {
-//        Assertions.assertThrows(NullPointerException.class, raindropsClass.raindrops(null));
+//        int nullInt;
+//        Assertions.assertThrows(NullPointerException.class, raindropsClass.raindrops(nullInt));
 //    }
 
 
