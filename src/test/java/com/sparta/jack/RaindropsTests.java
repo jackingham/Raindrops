@@ -71,8 +71,8 @@ public class RaindropsTests {
 
     @ParameterizedTest
     @ValueSource(ints = {-3,-5,-7,-15,-21,-25,-105})
-    @DisplayName("Verify negative number results for factors")
-    void verifyNegativeNumberResultsForFactors(int n) {
+    @DisplayName("Test that the program works for negative multiples of 3, 5 and 7")
+    void testThatTheProgramWorksForNegativeMultiplesOf35And7(int n) {
         Assertions.assertEquals(raindropsClass.raindrops(abs(n)), raindropsClass.raindrops(n));
     }
 
