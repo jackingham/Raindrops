@@ -15,10 +15,10 @@ Write a function that takes as its input a number (n) and converts it to a strin
 ```
 
 ## Technologies Used
-JDK 11
-JUnit 5.7
-Cucumber 6.4
-
+- ![JDK_11_badge](https://img.shields.io/badge/JDK%2011-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+- ![maven_badge](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache%20maven&logoColor=white)
+- ![junit_badge](https://img.shields.io/badge/JUnit%205-25A162?style=for-the-badge&logo=junit5&logoColor=white)
+- ![cucumber_badge](https://img.shields.io/badge/-Cucumber-23D96C?style=for-the-badge&logo=cucumber&logoColor=fff)
 
 ## Approach
 I programmed this function inside it's own Java class. As it is a function as I am assuming that only ints are passed in validly. I wrote a null test but the tests will not compile as it could be null. The program cannot be run itself as it is just a method. It is called from within the JUnit test bed to test the functionality. I also added a BDD layer using Cucumber to test using gherkin syntax, which allowed me to reuse parameterised statements to aid testing.
