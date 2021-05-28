@@ -84,28 +84,28 @@ Feature: The functionality of the raindrops function for single multiples
 
   @TwoMultiples
   @Negative
-  Scenario: Sending a factor of 3 and 5 to the function
+  Scenario: Sending a negative factor of 3 and 5 to the function
     Given I have a raindrops class
     When I pass in -15
     Then I am returned "PlingPlang"
 
   @TwoMultiples
   @Negative
-  Scenario: Sending a factor of 3 and 7 to the function
+  Scenario: Sending a negative factor of 3 and 7 to the function
     Given I have a raindrops class
     When I pass in -21
     Then I am returned "PlingPlong"
 
   @TwoMultiples
   @Negative
-  Scenario: Sending a factor of 5 and 7 to the function
+  Scenario: Sending a negative factor of 5 and 7 to the function
     Given I have a raindrops class
     When I pass in -35
     Then I am returned "PlangPlong"
 
   @ThreeMultiples
   @Negative
-  Scenario: Sending a factor of 3,5 and 7 to the function
+  Scenario: Sending a negative factor of 3,5 and 7 to the function
     Given I have a raindrops class
     When I pass in -105
     Then I am returned "PlingPlangPlong"
