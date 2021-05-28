@@ -76,6 +76,12 @@ public class RaindropsTests {
         Assertions.assertEquals(raindropsClass.raindrops(abs(n)), raindropsClass.raindrops(n));
     }
 
+//    @Test
+//    @DisplayName("Test passing in null")
+//    void testPassingInNull() {
+//        Assertions.assertThrows(NullPointerException.class, raindropsClass.raindrops(null));
+//    }
+
 
 
 
