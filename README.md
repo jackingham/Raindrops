@@ -14,4 +14,30 @@ Write a function that takes as its input a number (n) and converts it to a strin
 
 ```
 
+## Technologies Used
+JDK 11
+JUnit 5.7
+Cucumber 6.4
+
+
+##Approach
+I programmed this function inside it's own Java class. As it is a function as I am assuming that only ints are passed in validly. I wrote a null test but the tests will not compile as it could be null. The program cannot be run itself as it is just a method. It is called from within the JUnit test bed to test the functionality. I also added a BDD layer using Cucumber to test using gherkin syntax, which allowed me to reuse parameterised statements to aid testing.
+
+## Test case table  
+
+|**n**|Multiple of 3|Multiple of 5|Multiple of 7|Return|
+|---|---|---|---|---|
+|3|y|||Pling
+|5||y||Plang
+|7|||y|Plong
+|15|y|y||PlingPlang
+|21|y||Y|PlingPlong
+|35||y|y|PlangPlong
+|105|y|y|y|PlingPlangPlong
+|0|y|y|y|PlingPlangPlong
+|2||||2
+|-105|y|y|y|PlingPlangPlong
+
+
+
 
